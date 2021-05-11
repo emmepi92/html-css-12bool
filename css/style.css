@@ -1,8 +1,9 @@
 [class*="col"] {
     background-color: pink;
     border: 1px solid black;
-    text-align: center;
-    line-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .row {
@@ -13,8 +14,14 @@
     border: none;
     background-color: rgb(238, 142, 142);
     border: 1px solid white;
+    
 }
 
 .container .row:last-child .col-xs {
     padding: 5px;
 }
+
+.container .row:last-child {
+    width: 100%;
+}
+
