@@ -1,0 +1,20 @@
+[class*="col"] {
+    background-color: pink;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 200px;
+}
+
+.row {
+    height: 200px;
+}
+
+[class*="col"]>.row>[class*="col"] {
+    border: none;
+    background-color: rgb(238, 142, 142);
+    border: 1px solid white;
+}
+
+.container .row:last-child .col-xs {
+    padding: 5px;
+}
