@@ -1,0 +1,19 @@
+[class*="col"] {
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.row {
+    width: 240px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+[class*="col"]:nth-child(even) {
+    background-color: green;
+}
+
+.container .row .white {
+    background-color: white;
+}
